@@ -11,7 +11,7 @@ public class LotteryTicket {
 
     public static void main(String[] args) {
         int[] ticket = generateNumbers();
-        System.out.println("Liczby to:");
+        System.out.println("Wygrane:");
         Arrays.sort(ticket);
         printTicket(ticket);
     }
